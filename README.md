@@ -52,23 +52,20 @@ As a common practice we split the code in folders, such as base/, components/, l
 sass/
     |
     |– common/
-    |   |– _base.scss           # Global html rules
-    |   |– _buttons.scss        # Buttons
-    |   |– _footer.scss         # Footer
-    |   |– _forms.scss          # Form components
-    |   |– _header.scss         # Header
-    |   |– _layout.scss         # Basic layouts
-    |   |– _links.scss          # Links
-    |   |– _margins.scss        # Spacing helpers
-    |   |– _modal.scss          # Modals
-    |   |– _tooltip.scss        # Tooltip
-    |   |– _typography.scss     # Typography rules
-    |   |– _variables.scss      # Sass Variables
+    |   |– base.scss           # Global html rules
+    |   |– buttons.scss        # Buttons
+    |   |– footer.scss         # Footer
+    |   |– forms.scss          # Form components
+    |   |– header.scss         # Header
+    |   |– layout.scss         # Basic layouts
+    |   |– margins.scss        # Spacing helpers
+    |   |– modal.scss          # Modals
+    |   |– typography.scss     # Typography rules
+    |   |– variables.scss      # Sass Variables
     |
     |– pages/
-    |   |– _contact.scss        # Contact page specific styles
-    |   |– _home.scss           # Home page specific styles
-    |   |– _news.scss           # News page specific styles
+    |   |– home.scss           # Home page specific styles
+    |   |– login.scss          # Login page specific styles
     |
     |
     `– main.scss                # Main Sass file
@@ -123,6 +120,21 @@ npm install webpack-cli --save-dev
  ```
  [devServer](https://webpack.js.org/configuration/dev-server/#src/components/Sidebar/Sidebar.jsx) to start a local server.
 
+## Start developing
 
+Use the designs on [Zeplin](https://app.zeplin.io/project/5c05773f810c5b2c7e441102) to create a responsive web app.
 
+Depending on the type of project it is important to decide which layout structure will best suit.
+
+You can use [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) component library for more faster and commonly accepted development. The basic [Bootstrap system](https://getbootstrap.com/docs/4.0/layout/grid/) includes wrapping containers, a powerful 12-column grid system with a series of containers and rows to layout and align content, a flexible media object, and responsive utility classes.
+
+You can also build application basics upon CSS Grid or Flexbox layout. In both examples be careful to stick to the general rules and check the browser compatibility.
+
+Refer to the following documentation and tutorials:
+- Flexbox:
+  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  - https://flexbox.io/
+- CSS Grid:
+  - https://css-tricks.com/snippets/css/complete-guide-grid/
+  - https://cssgrid.io/
 
