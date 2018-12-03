@@ -6,7 +6,7 @@ These instructions will guide you to setup and get started with a test project.
 
 ## Git and Github
 
-Software developers working in teams are continually writing new source code and changing the existing code. The code for a project, app or software component is typically structured in file tree. One developer in the team may work on a new feature while another developer fixes a bug on a different one, each of them can make changes in several branches of the file tree.
+Software developers working in teams are continually writing new source code and changing the existing code. The source code for a project, app or software component is typically structured in file tree. One developer in the team may work on a new feature while another developer fixes a bug on a different one, each of them can make changes in several branches of the file tree.
 
 Version control software keeps track of every modification to the code and helps teams solve code conflicts or compare earlier versions when a mistake is made.
 
@@ -104,7 +104,6 @@ npm install webpack-cli --save-dev
  [css-loader](https://webpack.js.org/loaders/css-loader/#src/components/Sidebar/Sidebar.jsx), [sass-loader](https://webpack.js.org/loaders/sass-loader/#src/components/Sidebar/Sidebar.jsx), [node-sass](https://github.com/sass/node-sass), [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/#src/components/Sidebar/Sidebar.jsx) to generate Sass files.
  ```
  npm install css-loader sass-loader node-sass mini-css-extract-plugin --save-dev
-
  ```
  [optimize-css-assets-webpack-plugin](https://github.com/NMFR/optimize-css-assets-webpack-plugin), [uglifyjs-webpack-plugin](https://webpack.js.org/plugins/uglifyjs-webpack-plugin/#src/components/Sidebar/Sidebar.jsx) to compress Css and Js files.
  ```
@@ -119,6 +118,9 @@ npm install webpack-cli --save-dev
  npm install url-loader --save-dev
  ```
  [devServer](https://webpack.js.org/configuration/dev-server/#src/components/Sidebar/Sidebar.jsx) to start a local server.
+ ```
+ npm install webpack-dev-server --save-dev
+ ```
 
 ## Start developing
 
