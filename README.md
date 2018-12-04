@@ -141,7 +141,7 @@ Refer to the following documentation and tutorials:
   - https://cssgrid.io/
 
 
-## Hints for further learning
+### Hints for further learning
 
 - Design & prototyping tools: Sketch, Zeplin, InVision, Marvel
 - Github clients: GithubDesktop, SourceTree
