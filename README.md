@@ -146,6 +146,7 @@ Refer to the following documentation and tutorials:
 - Design & prototyping tools: Sketch, Zeplin, InVision, Marvel
 - Github clients: GithubDesktop, SourceTree
 - A more detailed view into: Webpack, Node.js and npm
+- Check Webpack alternatives: Grunt and Gulp
 - Sass preprocesor or CSS3 (varibales, class nesting)
 - Bootstrap
 - CSS Grid
