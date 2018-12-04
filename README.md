@@ -140,3 +140,13 @@ Refer to the following documentation and tutorials:
   - https://css-tricks.com/snippets/css/complete-guide-grid/
   - https://cssgrid.io/
 
+
+## Hints for further learning
+
+- Design & prototyping tools: Sketch, Zeplin, InVision, Marvel
+- Github clients: GithubDesktop, SourceTree
+- A more detailed view into: Webpack, Node.js and npm
+- Sass preprocesor or CSS3 (varibales, class nesting)
+- Bootstrap
+- CSS Grid
+- Flexbox
