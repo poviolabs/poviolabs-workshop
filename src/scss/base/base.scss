@@ -1,3 +1,25 @@
-h1 {
-  color: blue;
+// Base styles                                     |
+// - - - - - - - - - - - - - - - - - - - - - - - - |
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body,
+html {
+  font-style: normal;
+  font-stretch: normal;
+  font-family: $font-source-sans-pro;
+  letter-spacing: normal;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+* {
+  word-wrap: break-word;
+}
+
+*:focus {
+  outline: 0 !important;
 }
