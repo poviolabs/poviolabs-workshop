@@ -1,0 +1,35 @@
+// Profile avatar component                        |
+// - - - - - - - - - - - - - - - - - - - - - - - - |
+
+.profile-avatar {
+  font-size: 14px;
+  font-weight: 400;
+  font-weight: normal;
+  color: $purple;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: $purple;
+  }
+
+  .avatar {
+    background: url("../img/profile-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+
+    &.small {
+      width: 20px;
+      height: 20px;
+      margin-right: 6px;
+    }
+
+    &.large {
+      width: 40px;
+      height: 40px;
+      margin-right: 14px;
+    }
+  }
+}

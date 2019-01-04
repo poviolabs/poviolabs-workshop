@@ -1,0 +1,13 @@
+// Link component                                  |
+// - - - - - - - - - - - - - - - - - - - - - - - - |
+
+.link {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: $purple;
+
+  &:hover {
+    color: $purple-light;
+  }
+}

@@ -5,14 +5,306 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.min.css">
   <title>Meme Generator</title>
 </head>
 
 <body>
 
+  <div class="sidenav">
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+          <img src="img/mm-home.svg">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Create Meme</a>
+          <img src="img/mm-create.svg">
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+          <img src="img/mm-section.svg">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Animals</a>
+            <a class="dropdown-item" href="#">Anime</a>
+            <a class="dropdown-item" href="#">Basketball</a>
+            <a class="dropdown-item" href="#">Car</a>
+            <a class="dropdown-item" href="#">Cinema</a>
+            <a class="dropdown-item" href="#">Comic</a>
+            <a class="dropdown-item" href="#">Classical Art</a>
+            <a class="dropdown-item" href="#">Drawing & Illustration</a>
+            <a class="dropdown-item" href="#">Food & Drinks</a>
+            <a class="dropdown-item" href="#">Gaming</a>
+            <a class="dropdown-item" href="#">GIF</a>
+            <a class="dropdown-item" href="#">Girl</a>
+            <a class="dropdown-item" href="#">Guy</a>
+            <a class="dropdown-item" href="#">History</a>
+            <a class="dropdown-item" href="#">Horror</a>
+            <a class="dropdown-item" href="#">Music</a>
+            <a class="dropdown-item" href="#">Politics</a>
+            <a class="dropdown-item" href="#">Sport</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container-fluid main-content">
+
+    <nav class="navbar navbar-header">
+      <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><div><img src="img/logo-purple.svg"></div></a>
+      <a class="link d-none d-md-block" href="#">Login</a>
+
+      <div class="collapse navbar-collapse d-md-none" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Create Meme</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Animals</a>
+              <a class="dropdown-item" href="#">Anime</a>
+              <a class="dropdown-item" href="#">Basketball</a>
+              <a class="dropdown-item" href="#">Car</a>
+              <a class="dropdown-item" href="#">Cinema</a>
+              <a class="dropdown-item" href="#">Comic</a>
+              <a class="dropdown-item" href="#">Classical Art</a>
+              <a class="dropdown-item" href="#">Drawing & Illustration</a>
+              <a class="dropdown-item" href="#">Food & Drinks</a>
+              <a class="dropdown-item" href="#">Gaming</a>
+              <a class="dropdown-item" href="#">GIF</a>
+              <a class="dropdown-item" href="#">Girl</a>
+              <a class="dropdown-item" href="#">Guy</a>
+              <a class="dropdown-item" href="#">History</a>
+              <a class="dropdown-item" href="#">Horror</a>
+              <a class="dropdown-item" href="#">Music</a>
+              <a class="dropdown-item" href="#">Politics</a>
+              <a class="dropdown-item" href="#">Sport</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="grid">
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/01.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/02.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/03.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/04.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/05.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/06.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/07.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/08.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/09.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/10.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/11.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/12.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/13.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/14.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/15.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/16.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/17.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img class="grid-item__img" src="img/18.jpg">
+        <div class="grid-item__info">
+          <p class="default-s regular grid-item__points">187 points</p>
+          <a href="#"><img src="img/icon-share.svg"></a>
+        </div>
+        <div class="grid-item__info">
+          <a href="#" class="profile-avatar"><div class="avatar small"></div>Marc Wilson</a>
+          <p class="default-s regular grid-item__hours">5h</p>
+        </div>
+      </div>
+    </div>
 
 
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/script.min.js"></script>
 
 </body>

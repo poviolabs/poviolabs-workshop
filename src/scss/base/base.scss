@@ -12,7 +12,8 @@ html {
   font-stretch: normal;
   font-family: $font-source-sans-pro;
   letter-spacing: normal;
-  overflow: hidden;
+  overflow-x: hidden;
+  min-height: 100vh;
   -webkit-overflow-scrolling: touch;
 }
 
