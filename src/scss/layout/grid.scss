@@ -7,11 +7,15 @@
   column-gap: 20px;
   max-width: 90%;
 
-  @media (max-width: $screen-md-max) {
-    column-count: 2;
+  @media (min-width: $screen-xl-max) {
+    column-count: 4;
   }
 
   @media (max-width: $screen-sm-max) {
+    column-count: 2;
+  }
+
+  @media (max-width: $screen-xs-max) {
     column-count: 1;
   }
 

@@ -1,0 +1,32 @@
+// Social links component                          |
+// - - - - - - - - - - - - - - - - - - - - - - - - |
+
+.social-links {
+  position: fixed;
+  right: 0;
+
+  .navbar {
+    padding: 265px 20px 0;
+
+    @media (max-width: $screen-xs-max) {
+      padding: 265px 0 0;
+    }
+  }
+
+  .nav-item {
+    transform: rotate(90deg);
+    margin-bottom: 90px;
+  }
+
+  .nav-link {
+    color: $black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+
+    &:hover {
+      color: $black;
+      text-decoration: underline;
+    }
+  }
+}

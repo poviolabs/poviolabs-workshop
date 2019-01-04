@@ -11,6 +11,10 @@
   transition: 0.5s;
   margin-left: -210px;
 
+  @media (max-width: $screen-xs-max) {
+    display: none;
+  }
+
   &:hover {
     margin-left: 0;
   }
