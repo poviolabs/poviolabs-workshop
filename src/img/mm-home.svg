@@ -1,3 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path fill="#8777B3" fill-rule="evenodd" d="M19.946 7.875L11.974 0l-.02.02-.02-.02-6.82 6.774L.91 10.931a.43.43 0 0 0-.067.09l-.843.84h3.016V24h6.295v-8.512h5.246V24h6.427V11.86H24l-4.054-3.985z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>mm-home</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mm-home" fill="#FFFFFF">
+            <path d="M19.946,7.875 L11.974,0 L11.954,0.02 L11.934,0 L5.114,6.774 L0.91,10.931 C0.883831743,10.957945 0.861306703,10.9882025 0.843,11.021 L2.22044605e-16,11.861 L3.016,11.861 L3.016,24 L9.311,24 L9.311,15.488 L14.557,15.488 L14.557,24 L20.984,24 L20.984,11.86 L24,11.86 L19.946,7.875 Z" id="Path"></path>
+        </g>
+    </g>
 </svg>

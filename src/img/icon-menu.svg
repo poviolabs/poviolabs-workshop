@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="11px" viewBox="0 0 16 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>menu-4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="03-Home---Mobile" transform="translate(-23.000000, -27.000000)" stroke="#FFFFFF">
+            <g id="menu-4" transform="translate(23.000000, 27.000000)">
+                <path d="M0.5,0.5 L15.5,0.5" id="Path"></path>
+                <path d="M0.5,5.5 L15.5,5.5" id="Path"></path>
+                <path d="M0.5,10.5 L8.5,10.5" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

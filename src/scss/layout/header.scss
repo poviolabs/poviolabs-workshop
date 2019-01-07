@@ -3,4 +3,73 @@
 
 .navbar-header {
   padding: 25px 0;
+
+  @media (max-width: $screen-xs-max) {
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: $purple;
+    position: fixed;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    align-self: baseline;
+    padding: 0 23px;
+  }
+
+  .navbar-brand {
+    padding: 0;
+    font-size: 0;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    margin-top: 50px;
+    overflow-y: auto;
+
+    .nav-item {
+      opacity: .4;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    .nav-link {
+      font-size: 22px;
+      font-weight: 400;
+      color: $white;
+    }
+
+    .dropdown-menu {
+      text-align: center;
+      background-color: $transparent;
+      border: 0;
+    }
+
+    .dropdown-item {
+      font-size: 16px;
+      font-weight: 400;
+      color: $white;
+      opacity: .4;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    .dropdown-toggle::after {
+      display: none;
+    }
+  }
 }

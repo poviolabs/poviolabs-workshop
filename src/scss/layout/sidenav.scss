@@ -31,6 +31,15 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
+    opacity: .4;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &.active {
+      opacity: 1;
+    }
 
     &:last-child {
       padding-bottom: 25px;
@@ -40,11 +49,7 @@
   .nav-link {
     font-size: 16px;
     font-weight: 400;
-    color: $purple-light;
-
-    &:hover {
-      color: $white;
-    }
+    color: $white;
 
     &.dropdown-toggle::after {
       display: none;
